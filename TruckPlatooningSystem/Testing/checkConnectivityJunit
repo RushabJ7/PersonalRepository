@@ -1,0 +1,30 @@
+package TPStesting;
+
+import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.Test;
+
+public class checkConnectivityJunit {
+
+	@Test
+	public void test1() {
+			TruckPlatooning test = new TruckPlatooning();
+			boolean output = test.checkConnectivity("Connected",true);
+			assertEquals(true, output);
+	}
+	
+	@Test
+	public void test2() {
+		TruckPlatooning test = new TruckPlatooning();
+		boolean output = test.checkConnectivity("Not connected",true);
+		assertEquals(false, output);
+}
+	@Test
+	public void test3() {
+		TruckPlatooning test = new TruckPlatooning();
+		boolean output = test.checkConnectivity("Connected",false);
+		assertEquals(false, output);
+}
+}
+ 
