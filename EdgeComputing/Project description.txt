@@ -1,1 +1,1 @@
-Programming a edge computing systemsuch that it moves towards 3 random targets while dodging the obstacles by reading the coordinates of the target using AWS IoT.
+Programming a edge computing system such that it moves towards 3 random targets while dodging the obstacles by reading the coordinates of the target using AWS IoT.
